@@ -13,7 +13,7 @@ const Project = g.model("Project", {
   liveSiteUrl: g.url(),
   githubUrl: g.url(),
   category: g.string().search(),
-  createdBy: g.ref(User),
+  createdBy: g.ref("User"),
 });
 
 // @ts-ignore
